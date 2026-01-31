@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/*SCREEN */
+
 
 class IDCardScreen extends StatelessWidget {
   const IDCardScreen({super.key});
@@ -41,7 +41,7 @@ class IDCardScreen extends StatelessWidget {
   }
 }
 
-/*FLIP CARD*/
+
 
 class FlipIDCard extends StatefulWidget {
   const FlipIDCard({super.key});
@@ -100,7 +100,9 @@ class _FlipIDCardState extends State<FlipIDCard>
   }
 }
 
-/*FRONT SIDE*/
+
+
+
 
 class FrontSideCard extends StatelessWidget {
   const FrontSideCard({super.key});
@@ -218,7 +220,7 @@ class FrontSideCard extends StatelessWidget {
   }
 }
 
-/* BACK SIDE  */
+
 
 class BackSideCard extends StatelessWidget {
   const BackSideCard({super.key});
@@ -314,7 +316,8 @@ class BackSideCard extends StatelessWidget {
   }
 }
 
-/*HELPERS*/
+
+
 
 Widget buildFrontRow(String title, String value) {
   return Padding(
@@ -337,6 +340,7 @@ Widget buildFrontRow(String title, String value) {
     ),
   );
 }
+
 
 Widget buildBackRow(IconData icon, String title, String value) {
   return Padding(
